@@ -25,14 +25,13 @@
             width: 50px;
             height: 50px;
             background-color:rgb(217, 116, 141);
-            color: white;
+            color: black;
             font-size: 20px;
             font-weight: bold;
             display: flex;
             justify-content: center;
             align-items: center;
-            margin: 2px;
-            border-radius: 5px;
+            border: 1px solid;
         }
     </style>
 </head>
@@ -50,6 +49,6 @@
             <div class="box">3</div>
             <div class="box">3</div>
         </div>
-    </div>   
+    </div>
 </body>
 </html>
