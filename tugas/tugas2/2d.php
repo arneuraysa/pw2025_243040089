@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -27,16 +28,18 @@
         }
     </style>
 </head>
+
 <body>
     <div class="catur">
         <?php
-            for ($row = 0; $row < 5; $row++) {
-                for ($col = 0; $col < 5; $col++) {
-                    $color = ($row + $col) % 2 === 0 ? 'hitam' : 'putih';
-                    echo "<div class='kotak $color'></div>";
-                }
+        for ($row = 0; $row < 5; $row++) {
+            for ($col = 0; $col < 5; $col++) {
+                $color = ($row + $col) % 2 === 0 ? 'hitam' : 'putih';
+                echo "<div class='kotak $color'></div>";
             }
+        }
         ?>
     </div>
 </body>
+
 </html>
