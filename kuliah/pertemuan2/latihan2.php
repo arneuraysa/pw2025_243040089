@@ -1,7 +1,7 @@
 <?php
 
 $nama = "Arneu Raysa";
-$email = "arneuraysa@gmail.com";
+$email = "xxxxxxx@gmail.com";
 $pekerjaan = "Atlet";
 $jurusan = "Teknik Informatika";
 $universitas = "Universitas Pasundan";
